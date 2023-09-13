@@ -1,7 +1,6 @@
 {
   "name": "@buncn/eslint-config-react",
   "version": "1.0.0",
-  "module": "index.js",
   "main": "index.js",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.23.0",

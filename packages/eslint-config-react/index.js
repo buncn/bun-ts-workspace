@@ -7,7 +7,7 @@ module.exports = {
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ], //使用推荐的React代码检测规范
-  plugins: ['@typescript-eslint', 'react-native'],
+  plugins: ['@typescript-eslint'],
   env: {
     browser: true,
     node: true,

@@ -1,12 +1,5 @@
 {
   "name": "bun-ts-workspace",
-  "version": "1.0.0",
-  "workspaces": ["packages/*", "projects/*"],
-  "devDependencies": {
-    "@buncn/eslint-config-react": "packages/eslint-config-react",
-    "bun-types": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+  "private": true,
+  "workspaces": ["packages/*", "projects/*"]
 }
