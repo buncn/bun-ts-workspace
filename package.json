@@ -10,11 +10,25 @@
   "scripts": {},
   "devDependencies": {
     "@buncn/eslint-config-react": "*",
-    "@buncn/tsconfig":"*"
+    "@buncn/tsconfig": "*",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.3"
   },
   "dependencies": {
     "typescript": "^5.0.0"
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "engines": {},
   "eslintConfig": {
     "root": true,
     "extends": ["@buncn/eslint-config-react"]
