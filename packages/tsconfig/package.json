@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "module": "index.ts",
   "type": "module",
+  "maintainers": [
+    "ckken@qq.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buncn/bun-ts-workspace.git",
+    "directory": "packages/tsconfig"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "bun-types": "latest",
     "typescript": "^5.0.0"

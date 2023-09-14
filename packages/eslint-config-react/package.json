@@ -2,6 +2,17 @@
   "name": "@buncn/eslint-config-react",
   "version": "1.0.0",
   "main": "index.js",
+  "maintainers": [
+    "ckken@qq.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buncn/bun-ts-workspace.git",
+    "directory": "packages/eslint-config-react"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
