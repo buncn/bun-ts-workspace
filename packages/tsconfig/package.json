@@ -1,0 +1,10 @@
+{
+  "name": "@buncn/tsconfig",
+  "version": "1.0.0",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  }
+}
