@@ -1,15 +1,5 @@
 # bun-ts-workspace
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.0.1. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Packages
++ [@buncn/eslint-config-react](./packages/eslint-config-react/) workspace 代码格式化
++ [@buncn/tsconfig](./packages/tsconfig/) tsconfig 默认配置
