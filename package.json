@@ -20,6 +20,7 @@
   "dependencies": {
     "typescript": "^5.0.0"
   },
+  "engines": {},
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -30,7 +31,6 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "engines": {},
   "eslintConfig": {
     "root": true,
     "extends": ["@buncn/eslint-config-react"]
