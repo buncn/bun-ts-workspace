@@ -7,7 +7,9 @@
     "packages/*",
     "projects/*"
   ],
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install" 
+  },
   "devDependencies": {
     "@buncn/eslint-config-react": "*",
     "@buncn/tsconfig": "*",
