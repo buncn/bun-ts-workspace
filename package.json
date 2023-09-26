@@ -11,8 +11,8 @@
     "prepare": "husky install" 
   },
   "devDependencies": {
-    "@buncn/eslint-config-react": "*",
-    "@buncn/tsconfig": "*",
+    "@buncn/eslint-config-react": "workspace:*",
+    "@buncn/tsconfig": "workspace:*",
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "husky": "^8.0.3"
