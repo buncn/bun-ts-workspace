@@ -8,7 +8,7 @@
     "projects/*"
   ],
   "scripts": {
-    "prepare": "husky install" 
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@buncn/eslint-config-react": "workspace:*",
@@ -18,7 +18,7 @@
     "husky": "^8.0.3"
   },
   "dependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.2.2"
   },
   "engines": {},
   "commitlint": {
@@ -34,5 +34,6 @@
   "eslintConfig": {
     "root": true,
     "extends": ["@buncn/eslint-config-react"]
-  }
+  },
+  "ignorePatterns": ["dist"]
 }

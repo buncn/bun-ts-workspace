@@ -1,0 +1,23 @@
+{
+  "name": "@buncn/emp",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch bun-config.ts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@swc/core": "^1.3.93",
+    "swc-loader": "^0.2.3",
+    "webpack": "^5.89.0",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
