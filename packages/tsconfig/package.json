@@ -15,7 +15,6 @@
     "access": "public"
   },
   "dependencies": {
-    "bun-types": "latest",
-    "typescript": "^5.2.2"
+    "bun-types": "latest"
   }
 }
